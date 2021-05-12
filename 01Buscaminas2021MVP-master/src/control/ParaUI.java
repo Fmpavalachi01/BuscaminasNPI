@@ -5,11 +5,13 @@ import java.awt.event.ActionListener;
 
 import modelo.Densidad;
 import modelo.Dificultad;
+import vista.Botonera;
 import vista.UI;
 
 public class ParaUI extends UI {
 
 	private Controlador controlador;
+	private Botonera botonera;
 	
 	public ParaUI() {
 		super();
@@ -26,6 +28,7 @@ public class ParaUI extends UI {
 				System.out.println(dificultad.getLongitud());
 				controlador.dameValores(densidad, dificultad);
 //				jPanelOpciones.getCmbDensidad();
+	            (controlador);
 			}
 		});		
 	}

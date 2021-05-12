@@ -18,6 +18,7 @@ public class JPanelOpciones extends JPanel {
 	private JButton btnIniciar;
 	private JComboBox cmbDificultad;
 	private JComboBox cmbDensidad;
+	
 
 	
 	/**
